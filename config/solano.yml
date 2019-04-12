@@ -1,9 +1,5 @@
 ruby_version:
  SPLIT:
-   - 'ruby-1.9.3-p545'
-   - 'ruby-2.1.5'
-   - 'ruby-2.2.2'
-   - 'ruby-2.3.0'
    - 'ruby-2.4.0'
 coverage:
   version: 2
@@ -13,7 +9,6 @@ tool_config:
   gcc:
     version: '4.8'
 test_pattern:
-  - features/*.feature
   - spec/**_spec.rb
 test_exclude_pattern:
   - spec/agent_spec.rb
